@@ -1,6 +1,8 @@
 # Themes
 
 * [Current market](#current-market)
+* [Builders](#builders)
+* [Personas](#personas)
 
 
 ## Current market
@@ -30,7 +32,56 @@ The trending are:
 * http://themeforest.net/item/sharon-vcard-personal-portfolio-resume-templates/full_screen_preview/7095028
 * http://preview.imithemes.com/?theme=Solotrio
 
+
+In http://themeforest.net/tags/developer there are 60 templates a few of them are for portfolios
+
+* http://themeforest.net/item/vertica-retina-ready-resume-cv-portfolio/full_screen_preview/8536870
+* http://themes.profteamsolutions.com/identity-vcard/?page_id=21
+* http://themeforest.net/item/the-triton-multipage-portfolio-template/full_screen_preview/11446555
+* http://themeforest.net/item/savvy-personal-vcard-resume-portfolio-template/full_screen_preview/10811117
+* http://darwinthemes.com/retouch/html/theme/index-blue.html
+
+
 Obeservations:
 
 * There is no "Developer" subsection here. ![Screenshot](themeforrest.png)
-* All templates look mainstream, on hype
+* All templates look mainstream, on hype, and bloated with sliders, big background images, videos, superstar stock photos etc etc
+
+
+### Google search for "developer portfolio template" or "theme"
+
+* http://www.bootstrapzero.com/templates/portfolio
+* http://scripteden.com/downloads/html5/
+* https://wrapbootstrap.com/themes/portfolios
+
+Observations
+
+* Same approach as Themeforrest: bloated
+* the query is fully associated with *Bootstrap*
+
+
+### Google search for "Githup pages template" or "theme"
+
+* https://github.com/jekyll/jekyll/wiki/Themes
+* http://jekyllthemes.org/
+* http://jekyllthemes.io/
+
+Observations
+
+* Mostly blogging themes
+* Fully associated with Jekyll
+* Links to [Static Site Generators on Themeforrest](http://themeforest.net/category/static-site-generators)
+
+
+## Builders
+
+* http://scripteden.com/builder/bootstrap/
+
+
+
+## Personas
+
+* Back-end developer
+* Front-end developer
+* App developer
+* Full stack developer
