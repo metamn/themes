@@ -1,11 +1,64 @@
 # Themes
 
 * [Current market](#current-market)
+* [Similar services](#similar-services)
 * [Builders](#builders)
 * [Personas](#personas)
 
 
 ## Current market
+
+### Developers
+
+#### Superstars
+
+* https://addyosmani.com/
+* http://zachholman.com/
+* http://sarasoueidan.com/
+* http://www.stubbornella.org/content/
+* https://www.rachelandrew.co.uk/
+* http://scottjehl.com/
+* http://hugogiraudel.com/
+* http://www.keithclark.co.uk/
+* http://maban.co.uk/
+* http://laurakalbag.com/
+* http://tholman.com/
+* http://lea.verou.me/
+* http://www.bramstein.com/
+* http://timkadlec.com/
+* http://pixelscommander.com/en
+* http://pad.gs/
+
+
+#### Following Reindex.io on Twitter
+
+Form the 67 followers 19 have personal pages.
+All people seems to have a Github account.
+Devs like to blog.
+
+
+* http://namuol.github.io/
+* http://pascal-brewing.de/
+* http://jonathanwerner.net/
+* http://elliottsj.com/
+* http://gilbox.me/
+* http://www.gnuton.org/
+* http://blogwaffe.com/
+* https://foricontainmultitudes.wordpress.com/
+* http://gothy.me/
+* http://www.donaldkelsey.com/
+* http://songawee.com/
+* http://alekseykulikov.com/
+* http://varya.me/
+* http://www.vullum.io/ -> paid theme
+* http://arturoromerotcs.github.io/
+* http://nxhx.org/
+* http://ivarbergman.se/
+* https://about.me/shanabrook
+* http://www.nrako.com/
+
+
+
 
 ### Themeforrest
 
@@ -71,6 +124,13 @@ Observations
 * Mostly blogging themes
 * Fully associated with Jekyll
 * Links to [Static Site Generators on Themeforrest](http://themeforest.net/category/static-site-generators)
+
+
+## Similar services
+
+* https://about.me/
+* 
+
 
 
 ## Builders
