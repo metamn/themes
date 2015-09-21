@@ -129,7 +129,8 @@ Observations
 ## Similar services
 
 * https://about.me/
-* 
+* http://resume.github.io/?defunkt
+* https://github.com/metamn/themes/generated_pages/themes
 
 
 
