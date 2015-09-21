@@ -7,13 +7,14 @@
 
 ### Themeforrest
 
-From the best seller HTML templates (http://themeforest.net/search?utf8=%E2%9C%93&term=&view=list&sort=sales&date=&category=site-templates&price_min=&price_max=&sales=&rating_min=):
+From the best seller [HTML templates](http://themeforest.net/search?utf8=%E2%9C%93&term=&view=list&sort=sales&date=&category=site-templates&price_min=&price_max=&sales=&rating_min=):
 
 * The top 10-15+ are about Admin, Corporate / Business with a few Creative templates
-* In the top 30 there is a resume-like template Zwin for $7 with 3500+ sales (not updated since 2013): http://themeforest.net/item/zwin-responsive-vcard-template/full_screen_preview/1970657
-* In the top 100 there is another CV like template Clean CV for $11 with 2300+ sales (updated recently): http://themeforest.net/item/clean-cv-responsive-resume-template-4-bonuses/full_screen_preview/82474
+* In the top 30 there is a resume-like template [Zwin](http://themeforest.net/item/zwin-responsive-vcard-template/full_screen_preview/1970657) for $7 with 3500+ sales not updated since 2013
+* In the top 100 there is another CV like template [Clean CV](http://themeforest.net/item/clean-cv-responsive-resume-template-4-bonuses/full_screen_preview/82474) for $11 with 2300+ sales (updated recently):
 
-In the "Personal Website Templates" we have 264 items from $7-$22: http://themeforest.net/search?utf8=%E2%9C%93&term=&view=list&sort=sales&date=&category=site-templates%2Fpersonal&price_min=&price_max=&sales=&rating_min=
+In the "Personal Website Templates" we have 264 items from [$7-$22](http://themeforest.net/search?utf8=%E2%9C%93&term=&view=list&sort=sales&date=&category=site-templates%2Fpersonal&price_min=&price_max=&sales=&rating_min=)
+
 
 The best rated are:
 
