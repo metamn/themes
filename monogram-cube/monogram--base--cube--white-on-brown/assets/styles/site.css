@@ -1,0 +1,577 @@
+/*
+Settings
+================================================================================
+*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700,);
+
+@import url(http://fonts.googleapis.com/css?family=Lekton:700,);
+
+.white {
+    background: #fff;
+}
+
+.brown {
+    background: #A4825D;
+}
+
+.white-on-brown {
+    color: #fff;
+    background-color: #A4825D;
+}
+
+.montserrat-normal {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.lekton-bold {
+    font-family: 'Lekton', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.scale--default {
+    font-size: 100%;
+    line-height: 1.48;
+}
+
+.text-style--default {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1.48;
+    color: #fff;
+    background-color: #A4825D;
+}
+
+.text-style--title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+
+.text-style--subtitle {
+    font-family: 'Lekton', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+/*
+Elements on the page
+================================================================================
+*/
+/*
+  Normalize.css // Skip this part
+  ------------------------------------------------------------------------------
+  */
+html {
+    font-family: sans-serif;
+  /* 1 */
+    -ms-text-size-adjust: 100%;
+  /* 2 */
+    -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+body {
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+  /* 1 */
+    vertical-align: baseline;
+  /* 2 */
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden],
+template {
+    display: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/**
+   * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+   */
+b,
+strong {
+    font-weight: bold;
+}
+
+dfn {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+figure {
+    margin: 1em 40px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+pre {
+    overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+  /* 1 */
+    font: inherit;
+  /* 2 */
+    margin: 0;
+  /* 3 */
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+html input[type="button"], input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+  /* 2 */
+    cursor: pointer;
+  /* 3 */
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+  /* 1 */
+    padding: 0;
+  /* 2 */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+  /* 1 */
+  /* 2 */
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+    border: 0;
+  /* 1 */
+    padding: 0;
+  /* 2 */
+}
+
+textarea {
+    overflow: auto;
+}
+
+optgroup {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+/*
+  Normalize.css // End
+  ------------------------------------------------------------------------------
+  */
+/* Flexbox bugfixes */
+* {
+    min-height: 0;
+}
+
+* {
+    min-width: 0;
+}
+
+html body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1.48;
+    color: #fff;
+    background-color: #A4825D;
+}
+
+html body section > h3, html body article > h3, html body aside > h3, html body nav > h3, html body header > h3, html body footer > h3 {
+    display: none;
+}
+
+html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+html body p, html body figure, html body blockquote, html body ul, html body ol, html body li {
+    margin: 0;
+    padding: 0;
+}
+
+html body figure a {
+    line-height: 0;
+    display: block;
+}
+
+html.home body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+html.home body .monogram {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0 10vw 15vh;
+}
+
+html.home body .monogram__row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 30vh;
+}
+
+html.home body .monogram__row.monogram__row--cols2 {
+    height: 15vh;
+}
+
+html.home body .monogram__row.monogram__row--cols2 .character {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+
+html.home body .monogram__row.monogram__row--cols2 .character.character__space {
+    visibility: hidden;
+}
+
+html.home body .monogram__row.monogram__row--cols3 {
+    height: 10vh;
+}
+
+html.home body .monogram__row.monogram__row--cols3 .character {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+
+html.home body .monogram__row.monogram__row--cols3 .character.character__space {
+    visibility: hidden;
+}
+
+html.home body .monogram__row.monogram__row--cols4 {
+    height: 7.5vh;
+}
+
+html.home body .monogram__row.monogram__row--cols4 .character {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+
+html.home body .monogram__row.monogram__row--cols4 .character.character__space {
+    visibility: hidden;
+}
+
+html.home body .monogram__row.monogram__row--cols5 {
+    height: 6vh;
+}
+
+html.home body .monogram__row.monogram__row--cols5 .character {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+
+html.home body .monogram__row.monogram__row--cols5 .character.character__space {
+    visibility: hidden;
+}
+
+html.home body .cube {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 0 10vh 15vw;
+}
+
+html.home body .cube__wrap {
+    -webkit-perspective: 800px;
+    perspective: 800px;
+    -webkit-perspective-origin: 50% 200px;
+    perspective-origin: 50% 200px;
+    width: 5.92em;
+    cursor: pointer;
+}
+
+html.home body .cube__wrap .cube3d {
+    position: relative;
+    margin: 0 auto;
+    height: 5.92em;
+    width: 5.92em;
+    -webkit-transition: -webkit-transform 2s linear;
+    transition: transform 2s linear;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+html.home body .cube__wrap .cube3d__face {
+    position: absolute;
+    width: 5.92em;
+    height: 5.92em;
+}
+
+html.home body .cube__wrap .cube3d__face--front {
+    -webkit-transform: rotateX(90deg) translateZ(2.96em);
+    transform: rotateX(90deg) translateZ(2.96em);
+}
+
+html.home body .cube__wrap .cube3d__face--back {
+    -webkit-transform: translateZ(2.96em);
+    transform: translateZ(2.96em);
+}
+
+html.home body .cube__wrap .cube3d__face--top {
+    -webkit-transform: rotateY(90deg) translateZ(2.96em);
+    transform: rotateY(90deg) translateZ(2.96em);
+}
+
+html.home body .cube__wrap .cube3d__face--bottom {
+    -webkit-transform: rotateY(180deg) translateZ(2.96em);
+    transform: rotateY(180deg) translateZ(2.96em);
+}
+
+html.home body .cube__wrap .cube3d__face--left {
+    -webkit-transform: rotateY(-90deg) translateZ(2.96em);
+    transform: rotateY(-90deg) translateZ(2.96em);
+}
+
+html.home body .cube__wrap .cube3d__face--right {
+    -webkit-transform: rotateX(-90deg) translateZ(2.96em) rotate(180deg);
+    transform: rotateX(-90deg) translateZ(2.96em) rotate(180deg);
+}
+
+html.home body .cube__wrap .cube3d__face {
+    border: 1px solid;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+html.home body .cube__wrap .cube3d__face .icomoon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1.48em;
+    height: 1.48em;
+}
+
+html.home body .cube__wrap .cube3d__face .icomoon__icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1.48em;
+    height: 1.48em;
+    fill: currentColor;
+    color: #fff;
+    background-color: #A4825D;
+}
+
+html.home body .cube__wrap .cube3d__face .icomoon__link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #A4825D;
+}
+
+/*# sourceMappingURL=site.css.map */
